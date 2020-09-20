@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -8093,7 +8093,7 @@ input[type=range]::-ms-thumb {
   }
 }
 body {
-  background-color: #b0cac7;
+  background-color: #fafafa;
 }
 
 img {
@@ -8104,28 +8104,81 @@ nav {
   background-color: #318fb5;
 }
 
+#landing {
+  background: url("../img/burnham-pier.jpg");
+  background-size: cover;
+}
+
+#bacp-logo {
+  padding: 50px;
+}
+
 .main-body {
-  margin-top: 100px;
+  padding: 100px 0 100px 0;
 }
 
-.headshot img {
-  height: 200px;
-  width: auto;
+.intro-text {
+  font-size: 1.5rem;
 }
 
+.introduction {
+  border-radius: 10px;
+  padding: 100px 60px;
+  background: #fafafaa0;
+  text-align: center;
+}
+.introduction h1 {
+  font-size: 3.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.introduction h2 {
+  font-size: 2.2rem;
+  font-weight: 100;
+}
+.introduction h3 {
+  font-size: 2.5rem;
+  margin-top: 70px;
+}
+.introduction h4 {
+  font-size: 1.5rem;
+}
+
+.questions {
+  position: relative;
+}
+.questions h4 {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.questions h4:nth-child(1) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+}
+.questions h4:nth-child(2) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0%, 45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .brand-logo {
   font-family: "Comfortaa", cursive;
-  font-weight: 200;
-}
-
-h1 {
-  font-family: "Comfortaa", cursive;
-  font-weight: 700;
-  text-align: right;
-}
-
-h4 {
-  text-align: right;
   font-weight: 200;
 }
 
