@@ -8101,24 +8101,53 @@ img {
 }
 
 nav {
-  background-color: #318fb5;
+  background-color: #b0cac7;
 }
 
 #landing {
   background: url("../img/burnham-pier.jpg");
   background-size: cover;
 }
+#landing > div {
+  padding: 100px 0 100px 0;
+}
+
+section {
+  margin: 0 0 100px 0;
+}
 
 #bacp-logo {
   padding: 50px;
 }
 
-.main-body {
-  padding: 100px 0 100px 0;
+.text-section .row {
+  height: 377px;
 }
-
-.intro-text {
-  font-size: 1.5rem;
+.text-section .col {
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  .text-section .col {
+    margin-bottom: 20px;
+  }
+}
+.text-section p {
+  font-size: 1.08rem;
+  padding-bottom: 11px;
+}
+.text-section img {
+  height: 100%;
+  object-fit: cover;
+}
+.text-section .card {
+  margin-top: 0;
+  background-color: #b0cac7;
+  height: 100%;
+}
+.text-section .card-title {
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding-bottom: 16px;
 }
 
 .introduction {
@@ -8180,6 +8209,11 @@ nav {
 .brand-logo {
   font-family: "Comfortaa", cursive;
   font-weight: 200;
+}
+@media (max-width: 900px) {
+  .brand-logo {
+    font-size: 1.5rem !important;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

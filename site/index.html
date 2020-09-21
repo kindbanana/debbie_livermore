@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Debbi Livermore</title>
     <link rel="stylesheet" href="scss/index.css">
 </head>
 <body>
 <header>
     <nav>
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">Debbie Livermore</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo"> Debbie Livermore</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Fees</a></li>
@@ -19,10 +22,17 @@
             </ul>
         </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Fees</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">FAQ</a></li>
+    </ul>
 </header>
 <main>
     <section id="landing">
-        <div class="container main-body">
+        <div class="container">
             <div class="row introduction">
                 <div class="col s12 m6">
                     <picture class="headshot">
@@ -36,18 +46,60 @@
                     <h2>Qualified and Registered BACP Counsellor</h2>
                     <img id="bacp-logo" src="https://www.servicesix.co.uk/uploads/BACP%20new%20logo%20transparent.png">
                     <!--                    <h4>Going through a difficult life event?</h4>-->
-                  <div class="questions">
-                    <h4 class="question-item">Going through a difficult life event?</h4>
-                    <h4 class="question-item">struggling to come to terms with past experiences?</h4>
-                  </div>
+                    <div class="questions">
+                        <h4 class="question-item">Going through a difficult life event?</h4>
+                        <h4 class="question-item">struggling to come to terms with past experiences?</h4>
+                    </div>
                     <h3>Reach Out: 07355686148</h3>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="container text-section">
+        <div class="row">
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Think you might need help?</span>
+                        <p>I’m glad you have found your way here, it’s your first step towards feeling better. </p>
 
+                        <p>Most of us will experience difficult times in our lives. Perhaps you are going through a
+                            difficult life event, are struggling to come to terms with past experiences, feeling low and
+                            a bit lost. Perhaps the future feels difficult to see, or there are changes you want to
+                            make. Maybe you are finding it hard to maintain relationships, struggling with stress,
+                            feeling overwhelmed and panicky, want to lose weight or are caught in an addictive
+                            behaviour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l6">
+                <img src="https://images.unsplash.com/photo-1594342436424-dda50df715d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80s">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l6">
+                <img src="https://images.unsplash.com/photo-1575497530741-8bc986f43c01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            </div>
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Time to reach out?</span>
+                        <p>Whatever has brought you here, I’m glad you found me. I can offer a non-judgmental, kind,
+                            supportive and confidential environment to explore how you are feeling.
+                        </p>
+                        <p>As a Person centred therapist I can be by your side while you explore the changes that will
+                            help you move forward, lift your head and think about a happier future
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
 </main>
+<script src="js/bin/materialize.js"></script>
+<script src="js/sidenav.js"></script>
+<script src="js/custom/navbar.js"></script>
+
 </body>
 </html>
