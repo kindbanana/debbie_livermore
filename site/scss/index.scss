@@ -39,26 +39,18 @@
 @import "components/pulse";
 @import "components/datepicker";
 @import "components/timepicker";
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); //COLOR PALETTE
-$palette-cream: #f7d6bf;
-$palette-greengray: #b0cac7;
-$palette-light-blue: #318fb5;
-$palette-mid-blue: #005086;
-$palette-dark-blue: #001244;
-body {
-  background-color: #fafafa;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+//COLOR PALETTE
+@import "common.scss";
 
-img {
-  width: 100%;
-}
-
-nav {
-  background-color: $palette-light-blue;
-}
 
 #landing {
   background: url('../img/burnham-pier.jpg');
+
+  img {
+    width: 100%;
+  }
+
   background-size: cover;
 
   > div {
@@ -207,26 +199,5 @@ section {
 
 }
 
-.brand-logo {
-  font-family: 'Comfortaa', cursive;
-  font-weight: 200;
-  @media (max-width: 900px) {
-    font-size: 1.5rem !important;
-  }
-}
 
-footer {
-  img {
-    max-height: 56px;
-    width: auto
-  }
-  .container {
-    padding-top: 66px;
-    margin-bottom: 0;
-    padding-bottom: 1px;
-  }
-  color: #F1F1F1;
-  text-align: center;
-  margin-top: 250px;
-  background-color: $palette-light-blue;
-}
+

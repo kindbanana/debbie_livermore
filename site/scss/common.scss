@@ -1,0 +1,40 @@
+$palette-cream: #f7d6bf;
+$palette-greengray: #b0cac7;
+$palette-light-blue: #318fb5;
+$palette-mid-blue: #005086;
+$palette-dark-blue: #001244;
+
+footer {
+  img {
+    max-height: 56px;
+    width: auto
+  }
+
+  .container {
+    padding-top: 66px;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+  }
+
+  color: #F1F1F1;
+  text-align: center;
+  margin-top: 250px;
+  background-color: $palette-light-blue;
+}
+
+.brand-logo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 200;
+  @media (max-width: 900px) {
+    font-size: 1.5rem !important;
+  }
+}
+
+nav {
+  background-color: $palette-light-blue;
+}
+
+body {
+  background-color: #fafafa;
+}
+

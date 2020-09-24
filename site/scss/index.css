@@ -8092,21 +8092,46 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
-body {
-  background-color: #fafafa;
+footer {
+  color: #F1F1F1;
+  text-align: center;
+  margin-top: 250px;
+  background-color: #318fb5;
+}
+footer img {
+  max-height: 56px;
+  width: auto;
+}
+footer .container {
+  padding-top: 66px;
+  margin-bottom: 0;
+  padding-bottom: 1px;
 }
 
-img {
-  width: 100%;
+.brand-logo {
+  font-family: "Comfortaa", cursive;
+  font-weight: 200;
+}
+@media (max-width: 900px) {
+  .brand-logo {
+    font-size: 1.5rem !important;
+  }
 }
 
 nav {
   background-color: #318fb5;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 #landing {
   background: url("../img/burnham-pier.jpg");
   background-size: cover;
+}
+#landing img {
+  width: 100%;
 }
 #landing > div {
   padding: 100px 0 100px 0;
@@ -8227,32 +8252,6 @@ section {
 }
 .fees a {
   color: #318fb5;
-}
-
-.brand-logo {
-  font-family: "Comfortaa", cursive;
-  font-weight: 200;
-}
-@media (max-width: 900px) {
-  .brand-logo {
-    font-size: 1.5rem !important;
-  }
-}
-
-footer {
-  color: #F1F1F1;
-  text-align: center;
-  margin-top: 250px;
-  background-color: #318fb5;
-}
-footer img {
-  max-height: 56px;
-  width: auto;
-}
-footer .container {
-  padding-top: 66px;
-  margin-bottom: 0;
-  padding-bottom: 1px;
 }
 
 /*# sourceMappingURL=index.css.map */
