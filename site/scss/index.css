@@ -8139,15 +8139,16 @@ section {
   height: 100%;
   object-fit: cover;
 }
-.text-section .card {
-  margin-top: 0;
-  background-color: #b0cac7;
-  height: 100%;
-}
 .text-section .card-title {
   font-weight: 600;
   font-size: 1.7rem;
   padding-bottom: 16px;
+}
+
+.card {
+  margin-top: 0;
+  background-color: #b0cac7;
+  height: 100%;
 }
 
 .introduction {
@@ -8197,7 +8198,6 @@ section {
   animation-duration: 5s;
   animation-direction: alternate;
 }
-
 @keyframes fade {
   0%, 45% {
     opacity: 0;
@@ -8206,6 +8206,29 @@ section {
     opacity: 1;
   }
 }
+
+.fees li {
+  padding: 6px 0 6px 0;
+  font-size: 1.36rem;
+}
+.fees h2, .fees h5, .fees h6 {
+  text-align: center;
+}
+.fees .card-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.fees p {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+.fees .card-content .s4 {
+  text-align: right;
+}
+.fees a {
+  color: #318fb5;
+}
+
 .brand-logo {
   font-family: "Comfortaa", cursive;
   font-weight: 200;

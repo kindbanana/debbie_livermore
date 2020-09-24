@@ -96,11 +96,7 @@ section {
     height: 100%;
     object-fit: cover;
   }
-.card {
-  margin-top: 0;
-  background-color: $palette-greengray;
-  height: 100%;
-}
+
   .card-title {
     font-weight: 600;
     font-size: 1.7rem;
@@ -108,7 +104,11 @@ section {
   }
 }
 
-
+.card {
+  margin-top: 0;
+  background-color: $palette-greengray;
+  height: 100%;
+}
 
 .introduction {
   border-radius: 10px;
@@ -167,23 +167,48 @@ section {
     animation-direction: alternate;
   }
 
-}
-
-
-@keyframes fade {
-  0%, 45% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+  @keyframes fade {
+    0%, 45% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 
+.fees {
+  li {
+    padding: 6px 0 6px 0;
+    font-size: 1.36rem;
+  }
+
+  h2, h5, h6 {
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  p {
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  .card-content .s4 {
+    text-align: right;
+  }
+  a {
+    color: $palette-light-blue;
+  }
+
+}
 
 .brand-logo {
   font-family: 'Comfortaa', cursive;
   font-weight: 200;
-  @media (max-width : 900px) {
+  @media (max-width: 900px) {
     font-size: 1.5rem !important;
   }
 }
