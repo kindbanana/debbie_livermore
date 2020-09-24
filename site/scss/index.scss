@@ -54,7 +54,7 @@ img {
 }
 
 nav {
-  background-color: $palette-greengray;
+  background-color: $palette-light-blue;
 }
 
 #landing {
@@ -196,9 +196,11 @@ section {
     padding-bottom: 10px;
     font-size: 1.2rem;
   }
+
   .card-content .s4 {
     text-align: right;
   }
+
   a {
     color: $palette-light-blue;
   }
@@ -213,4 +215,18 @@ section {
   }
 }
 
-
+footer {
+  img {
+    max-height: 56px;
+    width: auto
+  }
+  .container {
+    padding-top: 66px;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+  }
+  color: #F1F1F1;
+  text-align: center;
+  margin-top: 250px;
+  background-color: $palette-light-blue;
+}
