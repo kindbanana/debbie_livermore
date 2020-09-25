@@ -50,7 +50,10 @@ h1, h2, h3 {
 p {
   padding: 8px 0 8px 0;
   font-size: 1.05rem;
+}
 
+section > p {
+  text-align: center;
 }
 
 .collapsible {
@@ -58,7 +61,12 @@ p {
     margin: 1px 0 1px 0;
     padding: 3px 0 3px 0;
   }
-  //img {
-  //  width: 100%;
-  //}
+  img {
+    width: 100%;
+  }
+}
+.intro-row {
+  img {
+    height: 350px;
+  }
 }
