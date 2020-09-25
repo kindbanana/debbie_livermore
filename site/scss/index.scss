@@ -165,6 +165,8 @@ section {
 }
 
 .fees {
+  color: #fafafa;
+
   li {
     padding: 6px 0 6px 0;
     font-size: 1.36rem;
@@ -192,6 +194,20 @@ section {
     color: $palette-light-blue;
   }
 
+  .card {
+    background-color: $palette-light-blue;
+    color: #fafafa;
+  }
+
+  .card-panel {
+    background-color: $palette-light-blue;
+
+    p {
+      padding: 1px;
+      margin: 4px;
+      font-size: 1.02rem;
+    }
+  }
 }
 
 
