@@ -8092,6 +8092,10 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 100%;
 }
@@ -8233,38 +8237,41 @@ section {
   }
 }
 
-.fees {
+#fees {
   color: #fafafa;
 }
-.fees li {
+#fees li {
   padding: 6px 0 6px 0;
   font-size: 1.36rem;
 }
-.fees h2, .fees h5, .fees h6 {
+#fees .row > h2 {
+  color: black;
+}
+#fees h2, #fees h5, #fees h6 {
   text-align: center;
 }
-.fees .card-title {
+#fees .card-title {
   font-size: 2rem;
   font-weight: 500;
 }
-.fees p {
+#fees p {
   padding-bottom: 10px;
   font-size: 1.2rem;
 }
-.fees .card-content .s4 {
+#fees .card-content .s4 {
   text-align: right;
 }
-.fees a {
+#fees a {
   color: #318fb5;
 }
-.fees .card {
+#fees .card {
   background-color: #318fb5;
   color: #fafafa;
 }
-.fees .card-panel {
+#fees .card-panel {
   background-color: #318fb5;
 }
-.fees .card-panel p {
+#fees .card-panel p {
   padding: 1px;
   margin: 4px;
   font-size: 1.02rem;

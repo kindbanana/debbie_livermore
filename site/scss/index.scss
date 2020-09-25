@@ -164,12 +164,16 @@ section {
   }
 }
 
-.fees {
+#fees {
   color: #fafafa;
 
   li {
     padding: 6px 0 6px 0;
     font-size: 1.36rem;
+  }
+
+  .row > h2 {
+    color: black;
   }
 
   h2, h5, h6 {
