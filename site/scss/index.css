@@ -8142,12 +8142,51 @@ body {
   padding: 100px 0 100px 0;
 }
 
-section {
-  margin: 0 0 100px 0;
+.introduction {
+  border-radius: 10px;
+  padding: 19px 35px;
+  background: #fafafad0;
+  text-align: center;
+}
+.introduction #bacp-logo {
+  margin: 40px 0 60px 0;
+  max-height: 60px;
+  width: auto;
+}
+.introduction h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.introduction h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.introduction h3 {
+  font-size: 2rem;
+  margin-top: 70px;
+  font-weight: 300;
+}
+.introduction h4 {
+  font-size: 1.3rem;
+}
+.introduction .col {
+  height: 510px;
+}
+.introduction .headshot {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduction .headshot img {
+  border-radius: 3px;
+  max-height: 450px;
+  width: auto;
 }
 
-#bacp-logo {
-  padding: 50px;
+section {
+  margin: 0 0 100px 0;
 }
 
 .text-section .row {
@@ -8181,33 +8220,11 @@ section {
   height: 100%;
 }
 
-.introduction {
-  border-radius: 10px;
-  padding: 100px 60px;
-  background: #fafafaa0;
-  text-align: center;
-}
-.introduction h1 {
-  font-size: 3.8rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-}
-.introduction h2 {
-  font-size: 2.2rem;
-  font-weight: 100;
-}
-.introduction h3 {
-  font-size: 2.5rem;
-  margin-top: 70px;
-}
-.introduction h4 {
-  font-size: 1.5rem;
-}
-
 .questions {
   position: relative;
 }
 .questions h4 {
+  font-weight: 600;
   width: 100%;
   top: 50%;
   left: 50%;

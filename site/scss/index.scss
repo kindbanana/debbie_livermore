@@ -54,13 +54,65 @@
 
 }
 
+.introduction {
+  border-radius: 10px;
+  padding: 19px 35px;
+  background: #fafafad0;
+  text-align: center;
+
+  #bacp-logo {
+    margin: 40px 0 60px 0;
+    max-height: 60px;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-top: 70px;
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  .col {
+    height: 510px;
+  }
+
+  .headshot {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      border-radius: 3px;
+      max-height: 450px;
+      width: auto;
+    }
+
+    //padding: 50px
+  }
+
+
+}
+
 section {
   margin: 0 0 100px 0;
 }
 
-#bacp-logo {
-  padding: 50px;
-}
 
 .text-section {
   .row {
@@ -97,40 +149,11 @@ section {
   height: 100%;
 }
 
-.introduction {
-  border-radius: 10px;
-  padding: 100px 60px;
-  background: #fafafaa0;
-  text-align: center;
-
-
-  h1 {
-    font-size: 3.8rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-  }
-
-  h2 {
-    font-size: 2.2rem;
-    font-weight: 100;
-  }
-
-  h3 {
-    font-size: 2.5rem;
-    margin-top: 70px;
-  }
-
-  h4 {
-    font-size: 1.5rem;
-  }
-
-
-}
 
 .questions {
   position: relative;
-
   h4 {
+    font-weight: 600;
     width: 100%;
     top: 50%;
     left: 50%;
