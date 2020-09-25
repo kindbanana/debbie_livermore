@@ -8092,6 +8092,10 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+img {
+  width: 100%;
+}
+
 footer {
   color: #F1F1F1;
   text-align: center;
@@ -8129,9 +8133,6 @@ body {
 #landing {
   background: url("../img/burnham-pier.jpg");
   background-size: cover;
-}
-#landing img {
-  width: 100%;
 }
 #landing > div {
   padding: 100px 0 100px 0;

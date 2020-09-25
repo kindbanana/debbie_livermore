@@ -43,13 +43,9 @@
 //COLOR PALETTE
 @import "common.scss";
 
+
 #landing {
   background: url('../img/burnham-pier.jpg');
-
-  img {
-    width: 100%;
-  }
-
   background-size: cover;
 
   > div {
