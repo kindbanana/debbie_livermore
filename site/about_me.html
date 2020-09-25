@@ -30,10 +30,142 @@
         <li><a href="">FAQ</a></li>
     </ul>
 </header>
-<main></main>
-<script src="js/bin/materialize.js"></script>
-<script src="js/sidenav.js"></script>
-<script src="js/custom/navbar.js"></script>
+<main>
+    <section class="container">
+        <h2>About Me</h2>
+        <div class="row intro-row">
+            <div class="col s8 offset-s2">
+                <div class="card horizontal">
+
+                    <div class="card-image">
+                        <img src="./img/headshot-with-cuppa.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">My name is Debbie Livermore...</span>
+                            <p>I am a qualified, registered and insured Counsellor. I am constantly learning both from
+                                my clients and from further training and professional development. I recently completed
+                                a certificate for Online and Telephone Counselling to make sure I was able to support my
+                                clients during lockdown. </p>
+                            <p>I am always amazed at the power a counselling session can hold and the ability of my
+                                clients to grow and change.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>About my services</h3>
+        <div class="row">
+            <ul class="collapsible">
+
+                <li class="active">
+                    <div class="collapsible-header">
+                        My approach
+                    </div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <p>I use a humanistic approach, which means I won’t judge you or tell you what I think
+                                    you should do. The sessions are yours to use how you like, we can sit together in
+                                    silence if that is what you need or you can talk about the issues that are troubling
+                                    you, in a quiet, calm and confidential space. </p>
+                                <p>Sometimes you may not even be sure what those issues are but together we can find a
+                                    way to cope with the challenges life brings and I will be by your side as we explore
+                                    those challenges and your feelings about them.</p>
+                            </div>
+                            <div class="col m4 offset-m1">
+                                <img src="img/index/white_yellow_flower.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        Taking the first step
+                    </div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <p>I know how daunting it is to take the first step and reach out to a counsellor. It
+                                    takes courage and strength and shows that you are ready to address the areas in your
+                                    life that are causing you distress and unhappiness. We can look at these together at
+                                    your own pace. </p>
+                                <p>I believe that finding the right therapist is an important first step</p>
+                            </div>
+                            <div class="col m4 offset-m1">
+                                <img src="img/index/white_yellow_flower.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        The help I can offer
+                    </div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <p>My clients bring a multitude of issues into my room. I’m here to listen. </p>
+                                <p>I will show you empathy and support but never judge you.</p>
+                                <p>I believe therapy works best when the relationship between counsellor and therapist
+                                    is
+                                    strong
+                                    and we trust each other.</p>
+                                <p>I offer an initial assessment session and then, provided we are both happy to
+                                    proceed, we
+                                    will agree to meet on a weekly basis. Usually this will be on the same day of the
+                                    week,
+                                    and
+                                    at the same time of day.</p>
+                                <p>Together we will discuss what you want to achieve from counselling. I offer
+                                    counselling
+                                    for
+                                    many issues including stress, relationships, family problems, depression & feeling
+                                    low,
+                                    addiction, coping with change or wanting to make a change, loss of meaning,
+                                    sexuality,
+                                    abuse, bereavement, anger issues, self esteem, confidence, weight loss and
+                                    anxiety. </p>
+                            </div>
+                            <div class="col m4 offset-m1">
+                                <img src="img/index/white_yellow_flower.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        What sessions are like
+                    </div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <p>Our Sessions will be confidential. (there are some limits to this so that I can keep
+                                    you safe, we will discuss those in the first session)</p>
+                                <p>You set the pace of the sessions.</p>
+                                <p>I offer regular reviews to ensure therapy is working for you and to shift focus as
+                                    things change.</p>
+                                <p>Our Sessions can be face to face, via Zoom/Skype and I also offer a walking, talking
+                                    session if you find that being outdoors and moving helps you focus on your
+                                    feelings.</p>
+                                <p>You can have as many sessions as you need, there is no limit to how many sessions you
+                                    have.</p>
+                                <p>My commitment is to be there for you at an agreed time and place to ensure you are
+                                    given the time and space you need to work through your issues and hopefully effect
+                                    change.</p>
+                            </div>
+                            <div class="col m4 offset-m1">
+                                <img src="img/index/white_yellow_flower.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+</main>
 <footer>
     <div class="container">
         <div class="row">
@@ -58,5 +190,15 @@
         </div>
     </div>
 </footer>
+<script src="js/bin/materialize.js"></script>
+<script src="js/sidenav.js"></script>
+<script src="js/custom/navbar.js"></script>
+<script>
+    //TODO move this
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems, {});
+    });
+</script>
 </body>
 </html>

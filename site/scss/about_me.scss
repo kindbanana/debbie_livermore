@@ -42,3 +42,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 //COLOR PALETTE
 @import "common.scss";
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  padding: 8px 0 8px 0;
+    font-size: 1.05rem;
+
+}
+
+.collapsible {
+  p {
+    margin: 1px 0 1px 0;
+    padding: 3px 0 3px 0;
+  }
+  img {
+    width: 100%;
+  }
+}
+.intro-row {
+  img {
+    height: 350px;
+  }
+}
