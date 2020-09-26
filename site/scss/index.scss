@@ -62,8 +62,12 @@
 
   #bacp-logo {
     margin: 40px 0 60px 0;
-    max-height: 60px;
+    height: 60px;
     width: auto;
+    @media (max-width: 500px) {
+      width: 100%;
+      height: auto;
+    }
   }
 
   h1 {
@@ -89,6 +93,9 @@
 
   .col {
     height: 510px;
+    @media (max-width: 1300px) {
+      height: auto;
+    }
   }
 
   .headshot {
@@ -99,8 +106,16 @@
 
     img {
       border-radius: 3px;
-      max-height: 450px;
+      height: 450px;
       width: auto;
+      @media (max-width: 1300px) {
+        width: 100%;
+        height: auto;
+      }
+      @media (max-width: 1000px) {
+        width: 60%;
+        height: auto;
+      }
     }
 
     //padding: 50px
@@ -152,6 +167,7 @@ section {
 
 .questions {
   position: relative;
+
   h4 {
     font-weight: 600;
     width: 100%;
