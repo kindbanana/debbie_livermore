@@ -132,6 +132,9 @@ section {
 .text-section {
   .row {
     height: 377px;
+    @media (max-width: 600px) {
+      height: auto;
+    }
   }
 
   .col {

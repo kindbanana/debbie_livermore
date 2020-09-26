@@ -8215,6 +8215,11 @@ section {
 .text-section .row {
   height: 377px;
 }
+@media (max-width: 600px) {
+  .text-section .row {
+    height: auto;
+  }
+}
 .text-section .col {
   height: 100%;
 }
