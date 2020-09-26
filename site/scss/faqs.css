@@ -8115,6 +8115,9 @@ footer .container {
   margin-bottom: 0;
   padding-bottom: 1px;
 }
+footer a {
+  color: white;
+}
 
 .brand-logo {
   font-family: "Comfortaa", cursive;
