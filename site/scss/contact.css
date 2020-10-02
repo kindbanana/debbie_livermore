@@ -8187,4 +8187,8 @@ section .submit .submit-btn:hover {
   height: 400px;
 }
 
+#success, #fail {
+  display: none;
+}
+
 /*# sourceMappingURL=contact.css.map */

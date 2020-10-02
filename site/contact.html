@@ -7,6 +7,7 @@
     <title>Contact - Debbie Livermore</title>
     <link rel="stylesheet" href="scss/contact.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/custom/contact.js"></script>
 
 </head>
 <body>
@@ -77,7 +78,18 @@
     <section class="container">
         <h3>Get in touch</h3>
         <div class="row">
-            <form method="post" class="col s10 offset-s1"> <!--TODO Make functional-->
+            <div class="col s12 m10 offset-m1">
+                <div class="card-panel green" id="success">
+                    <span class="white-text">Your contact request has been sent, I will get back to you as soon as possible!
+                    </span>
+                </div>
+                <div class="card-panel red" id="fail">
+                    <span class="white-text" id="failtext">Contact request failed:
+                    </span>
+                </div>
+
+            </div>
+            <form class="col s12 m10 offset-m1" id="form" onsubmit="send(); return false;"> <!--TODO Make functional-->
                 <div class="row">
                     <div class="input-field col s6">
                         <input id="name" type="text" class="validate">
@@ -101,7 +113,7 @@
                     </div>
                 </div>
                 <div class="row submit">
-                    <button class="btn waves-effect waves-light submit-btn" type="submit" name="action">Send
+                    <button class="btn waves-effect waves-light submit-btn" type="submit">Send
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -120,7 +132,7 @@
             </div>
             <div class="col s12 m4">
                 <h4>Links</h4>
-                <p> <a href="">Home</a></p>
+                <p><a href="">Home</a></p>
                 <p>About Me</p>
                 <p>Services</p>
             </div>
