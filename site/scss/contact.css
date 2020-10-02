@@ -8165,11 +8165,14 @@ section .socials {
 }
 section .socials p {
   padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 section .socials img {
   height: 70px;
   width: auto;
   margin: 10px;
+  padding: 0;
 }
 section .submit button {
   background-color: #318fb5;
