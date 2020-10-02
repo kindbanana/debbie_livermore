@@ -8138,6 +8138,14 @@ body {
   background-color: #fafafa;
 }
 
+@media (max-width: 1000px) {
+  footer {
+    text-align: left;
+  }
+  footer h4 {
+    text-align: left;
+  }
+}
 h1, h2, h3 {
   text-align: center;
 }

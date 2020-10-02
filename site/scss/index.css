@@ -8138,6 +8138,14 @@ body {
   background-color: #fafafa;
 }
 
+@media (max-width: 1000px) {
+  footer {
+    text-align: left;
+  }
+  footer h4 {
+    text-align: left;
+  }
+}
 #landing {
   background: url("../img/index/burnham-pier.jpg");
   background-size: cover;
