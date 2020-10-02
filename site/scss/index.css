@@ -8251,38 +8251,25 @@ section {
   height: 100%;
 }
 
+.animated {
+  opacity: 1;
+  -webkit-transition: background 0.4s linear;
+  -moz-transition: background 0.4s linear;
+  -o-transition: background 0.4s linear;
+  -ms-transition: background 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+.animated.fade {
+  opacity: 0;
+}
+
+.animated.unfade {
+  opacity: 1;
+}
+
 .questions {
   position: relative;
-}
-.questions h4 {
-  font-weight: 600;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-.questions h4:nth-child(1) {
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-direction: alternate-reverse;
-}
-.questions h4:nth-child(2) {
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-direction: alternate;
-}
-@keyframes fade {
-  0%, 45% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 #fees {
