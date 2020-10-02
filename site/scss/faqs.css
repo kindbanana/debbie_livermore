@@ -8117,6 +8117,7 @@ footer .container {
 }
 footer a {
   color: white;
+  text-decoration: underline;
 }
 
 .brand-logo {
