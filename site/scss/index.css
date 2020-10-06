@@ -8320,5 +8320,9 @@ section {
   margin: 4px;
   font-size: 1.02rem;
 }
+#fees a {
+  color: antiquewhite;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=index.css.map */
