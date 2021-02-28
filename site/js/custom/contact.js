@@ -22,7 +22,7 @@ function send() {
 
     if (doSend) {
         console.log("sending");
-        fetch('https://us-central1-cybersaur.cloudfunctions.net/email-contact-form', {
+        fetch('https://europe-west2-main-project-301519.cloudfunctions.net/email-contact-form', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
