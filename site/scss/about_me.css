@@ -8165,4 +8165,31 @@ p {
   object-fit: cover;
 }
 
+@media (max-width: 600px) {
+  #desktop-intro {
+    display: none;
+  }
+
+  #mobile-intro {
+    display: inline-block;
+  }
+}
+@media (min-width: 600px) {
+  #desktop-intro {
+    display: inline-block;
+  }
+
+  #mobile-intro {
+    display: none;
+  }
+}
+#mobile-image-wrapper {
+  text-align: center;
+}
+#mobile-image-wrapper img {
+  height: 250px;
+  width: auto;
+  text-align: center;
+}
+
 /*# sourceMappingURL=about_me.css.map */
