@@ -8107,8 +8107,7 @@ footer {
   background-color: #318fb5;
 }
 footer img {
-  max-height: 56px;
-  width: auto;
+  width: 50%;
 }
 footer .container {
   padding-top: 66px;
