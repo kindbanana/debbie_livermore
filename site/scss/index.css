@@ -8162,7 +8162,7 @@ body {
 }
 .introduction #bacp-logo {
   margin: 40px 0 60px 0;
-  height: 60px;
+  height: 100px;
   width: auto;
 }
 @media (max-width: 500px) {
